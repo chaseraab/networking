@@ -80,8 +80,7 @@ A TCP segment consists of a header and data.
    - Window Scale
       - True receive window - allows the two parties to confirm what size message they can send and receive
       - This is essentially a bandaid ontop of limitations by the original design of TCP
-- Calculated window size = Window * Window size scaling factor
-    
+   - Calculated window size = Window * Window size scaling factor
 - IP Header
     Time to live
         Where the point of capture was
