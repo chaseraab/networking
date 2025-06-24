@@ -55,7 +55,8 @@ A TCP segment consists of a header and data.
 - SYN / ACK (server to client)
 - ACK (client to server)
 
-<img title="TCP handshake" src="images/TCP-Handshake.jpg">
+
+![alt text](https://github.com/chaseraab/networking/blob/main/Chris%20Greer/How%20TCP%20Works/Images/TCP-Handshake.jpg)
 
 # TCP Attributes
 - Sequence numbers
