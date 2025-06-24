@@ -82,7 +82,7 @@ A TCP segment consists of a header and data.
       - This is essentially a bandaid ontop of limitations by the original design of TCP
    - Calculated window size = Window * Window size scaling factor
 - IP Header
-    Time to live
-        Where the point of capture was
-        It indicates the number of hops
-        This number will decrement with each router it hops over
+   - Time to live
+      - Where the point of capture was
+      - It indicates the number of hops
+      - This number will decrement with each router it hops over
