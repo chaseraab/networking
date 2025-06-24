@@ -47,8 +47,9 @@ A TCP segment consists of a header and data.
 ## The TCP handshake
 - Client wants to talk to a server, before that it needs the handshake
 - TCP SYN (client to server)
-    - SYN is called such since a synchronization between server and client in terms of sequence and acknowledgemnet numbers
+    - SYN is called such since its a synchronization between server and client. Its used to establish certain attributes in the conversation.
 - SYN / ACK (server to client)
+   - The server responds with the metrics that it can support for the conversation.
 - ACK (client to server)
 
 
