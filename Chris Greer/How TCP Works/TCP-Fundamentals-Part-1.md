@@ -35,7 +35,7 @@ Explanation of sequence and acknowlegement numbers.
 ## TCP Segment Structure
 A TCP segment consists of a header and data.
 
-<img title="TCP segment" src="images/TCPSegmentHeader.jpg">
+![alt text](https://github.com/chaseraab/networking/blob/main/Chris%20Greer/How%20TCP%20Works/Images/TCPSegmentHeader-1.png)
 
 ### Header
 - ranges from 20-60 bytes
