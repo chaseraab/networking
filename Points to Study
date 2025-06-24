@@ -1,0 +1,27 @@
+ChatGPT Networking Resources
+
+That’s a great area to explore! Here are some excellent free resources to learn about network protocols and how to use Wireshark effectively:
+
+📘 Introductory Networking & Protocols
+	1.	Cisco Networking Academy – Introduction to Networking
+	•	Free course that covers foundational networking concepts.
+	2.	Computer Networking: Principles, Protocols and Practice (Olivier Bonaventure)
+	•	Free online textbook with deep dives into protocols like TCP, UDP, IP, etc.
+	3.	Stanford’s CS144: Computer Networking
+	•	Free lecture slides and assignments; intermediate to advanced level.
+
+🛠️ Wireshark-Specific Resources
+	1.	Wireshark Official Documentation and User Guide
+	•	Comprehensive and updated guide on installation, filters, and analysis.
+	2.	Wireshark Tutorial for Beginners (by Guru99)
+	•	Easy-to-follow tutorial with examples and screenshots.
+	3.	YouTube Channel: Chris Greer
+	•	Excellent videos on real-world packet analysis using Wireshark.
+
+🎓 Practice Tools & Labs
+	1.	Wireshark Sample Captures
+	•	Real packet captures you can download and analyze.
+	2.	PacketLife.net – Protocol Cheat Sheets
+	•	Handy reference sheets for quick protocol lookups.
+	3.	TryHackMe – Intro to Networking
+	•	Interactive, gamified learning environment with hands-on labs (free account needed).
