@@ -60,26 +60,26 @@ A TCP segment consists of a header and data.
    Explanation of sequence and acknowlegement numbers.
 
 - Sequence numbers
-    keeps track of packets in a conversation
-    Sent by the client
-    Wireshark will show 0 (relative sequence number)
-        The hex will show a much longer number
+   - keeps track of packets in a conversation
+   - Sent by the client
+   - Wireshark will show 0 (relative sequence number)
+      - The hex will show a much longer number
 - Acknowledgement number
-    Also a 4 byte number
-    Starts at 0
-    The ack number is sent by the server
+   - Also a 4 byte number
+   - Starts at 0
+   - The ack number is sent by the server
 - Window size value
-    The size of a message I'm willing to accept
+   - The size of a message I'm willing to accept
 - TCP Options
-    Ground rules in the relationship
-    Maximum segment size
-        Packet size
-    No-Operation
-    SACK permitted
-        These options are used to pad the header to make the appropriate header length (indicated by the Header Length field)
-    Window Scale
-        True receive window - allows the two parties to confirm what size message they can send and receive
-        This is essentially a bandaid ontop of limitations by the original design of TCP
+   - Ground rules in the relationship
+   - Maximum segment size
+      - Packet size
+   - No-Operation
+   - SACK permitted
+      - These options are used to pad the header to make the appropriate header length (indicated by the Header Length field)
+   - Window Scale
+      - True receive window - allows the two parties to confirm what size message they can send and receive
+      - This is essentially a bandaid ontop of limitations by the original design of TCP
 - Calculated window size = Window * Window size scaling factor
     
 - IP Header
