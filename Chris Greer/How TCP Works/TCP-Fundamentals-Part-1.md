@@ -28,10 +28,6 @@ Additional Resources
 
 The handshake used to establish a reliable connection between a client and a server before data transmission begins. The handshake ensures both parties are synchronized and ready for commincation.
 
-* https://madpackets.com/2018/04/25/tcp-sequence-and-acknowledgement-numbers-explained/
-
-Explanation of sequence and acknowlegement numbers.
-
 ## TCP Segment Structure
 A TCP segment consists of a header and data.
 
@@ -59,6 +55,9 @@ A TCP segment consists of a header and data.
 ![alt text](https://github.com/chaseraab/networking/blob/main/Chris%20Greer/How%20TCP%20Works/Images/TCP-Handshake.jpg)
 
 # TCP Attributes
+* https://madpackets.com/2018/04/25/tcp-sequence-and-acknowledgement-numbers-explained/
+   Explanation of sequence and acknowlegement numbers.
+
 - Sequence numbers
     keeps track of packets in a conversation
     Sent by the client
