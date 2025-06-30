@@ -105,4 +105,10 @@ https://www.geeksforgeeks.org/computer-networks/selective-acknowledgments-sack-i
 An option that is sent by a party to indicate the loss of a packet
 In wireshark this is indicated by  TCP Previous segment not captured
 
+# TCP vs UDP 
+https://www.youtube.com/watch?v=V1CxV6Vg7_U
 
+UDP is connectionless
+UDP is very simple
+Its very efficient
+Only 8 bytes in the header
