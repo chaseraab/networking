@@ -28,14 +28,10 @@ Additional Resources
 
 The handshake used to establish a reliable connection between a client and a server before data transmission begins. The handshake ensures both parties are synchronized and ready for commincation.
 
-* https://madpackets.com/2018/04/25/tcp-sequence-and-acknowledgement-numbers-explained/
-
-Explanation of sequence and acknowlegement numbers.
-
 ## TCP Segment Structure
 A TCP segment consists of a header and data.
 
-<img title="TCP segment" src="images/TCPSegmentHeader.jpg">
+![alt text](https://github.com/chaseraab/networking/blob/main/Chris%20Greer/How%20TCP%20Works/Images/TCPSegmentHeader-1.png)
 
 ### Header
 - ranges from 20-60 bytes
@@ -51,38 +47,42 @@ A TCP segment consists of a header and data.
 ## The TCP handshake
 - Client wants to talk to a server, before that it needs the handshake
 - TCP SYN (client to server)
-    - SYN is called such since a synchronization between server and client in terms of sequence and acknowledgemnet numbers
+    - SYN is called such since its a synchronization between server and client. Its used to establish certain attributes in the conversation.
 - SYN / ACK (server to client)
+   - The server responds with the metrics that it can support for the conversation.
 - ACK (client to server)
 
-<img title="TCP handshake" src="images/TCP-Handshake.jpg">
+
+![alt text](https://github.com/chaseraab/networking/blob/main/Chris%20Greer/How%20TCP%20Works/Images/TCP-Handshake.jpg)
 
 # TCP Attributes
+* https://madpackets.com/2018/04/25/tcp-sequence-and-acknowledgement-numbers-explained/
+   Explanation of sequence and acknowlegement numbers.
+
 - Sequence numbers
-    keeps track of packets in a conversation
-    Sent by the client
-    Wireshark will show 0 (relative sequence number)
-        The hex will show a much longer number
+   - keeps track of packets in a conversation
+   - Sent by the client
+   - Wireshark will show 0 (relative sequence number)
+      - The hex will show a much longer number
 - Acknowledgement number
-    Also a 4 byte number
-    Starts at 0
-    The ack number is sent by the server
+   - Also a 4 byte number
+   - Starts at 0
+   - The ack number is sent by the server
 - Window size value
-    The size of a message I'm willing to accept
+   - The size of a message I'm willing to accept
 - TCP Options
-    Ground rules in the relationship
-    Maximum segment size
-        Packet size
-    No-Operation
-    SACK permitted
-        These options are used to pad the header to make the appropriate header length (indicated by the Header Length field)
-    Window Scale
-        True receive window - allows the two parties to confirm what size message they can send and receive
-        This is essentially a bandaid ontop of limitations by the original design of TCP
-- Calculated window size = Window * Window size scaling factor
-    
+   - Ground rules in the relationship
+   - Maximum segment size
+      - Packet size
+   - No-Operation
+   - SACK permitted
+      - These options are used to pad the header to make the appropriate header length (indicated by the Header Length field)
+   - Window Scale
+      - True receive window - allows the two parties to confirm what size message they can send and receive
+      - This is essentially a bandaid ontop of limitations by the original design of TCP
+   - Calculated window size = Window * Window size scaling factor
 - IP Header
-    Time to live
-        Where the point of capture was
-        It indicates the number of hops
-        This number will decrement with each router it hops over
+   - Time to live
+      - Where the point of capture was
+      - It indicates the number of hops
+      - This number will decrement with each router it hops over
